@@ -91,7 +91,7 @@ const ProjectItem = ({ project }) => {
       <h3>{name}</h3>
       {background && (
         <Background>
-          <img src={background} alt='project image' />
+          <img src={background} alt='project' />
         </Background>
       )}
 

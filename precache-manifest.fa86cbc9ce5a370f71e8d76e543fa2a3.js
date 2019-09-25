@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d16a34cd9a64c971e45438e48459d437",
+    "revision": "e360e651b68057de708eb1f501f66d8e",
     "url": "/Portfolio-Website/index.html"
   },
   {
-    "revision": "4e07f6e9c057efd70b57",
-    "url": "/Portfolio-Website/static/js/2.fac01ebe.chunk.js"
+    "revision": "b8ee8e3f69bc5ddc110c",
+    "url": "/Portfolio-Website/static/js/2.974cc0fb.chunk.js"
   },
   {
-    "revision": "bd7b5e1955b2d14ed649",
-    "url": "/Portfolio-Website/static/js/main.ca0c174c.chunk.js"
+    "revision": "921143b62d2859645b3c",
+    "url": "/Portfolio-Website/static/js/main.d9e03b25.chunk.js"
   },
   {
     "revision": "b02ecd064c38077ee4dc",
@@ -22,5 +22,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a3d6da85fb065161cfcf815e8320e992",
     "url": "/Portfolio-Website/static/media/contactkeeper-thumbnail.a3d6da85.JPG"
+  },
+  {
+    "revision": "6ec779f7357d79e9c63a95963612f028",
+    "url": "/Portfolio-Website/static/media/uidesign-thumbnail.6ec779f7.JPG"
   }
 ]);

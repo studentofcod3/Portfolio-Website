@@ -17,10 +17,11 @@ const Contact = () => {
         align-items: space-around;
         margin-bottom: 3rem;
         text-decoration: none;
-        color: #ddd;
+        color: #4d4b4b;
+        transition: all 1s;
 
         :hover {
-          color: #85c1e9;
+          color: #b3b854;
         }
       }
     }

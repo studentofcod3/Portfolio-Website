@@ -1,0 +1,74 @@
+#App{
+  
+  .background{
+    background: #94e6e9;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .clip-item-2{
+      
+    }
+    .overlay{
+      
+    }
+  }
+  
+  .clip-item{
+    position: fixed;
+    top: -20rem;
+    left: -20rem;
+    background: #f4f817;
+    height: 15rem;
+    width: 15rem;
+    transform: rotate(45deg); 
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translate(0, 0) rotate(45deg); 
+      opacity: 0;
+    }
+
+    100%{
+      transform: translate(10rem, 10rem) rotate(45deg);opacity: 0.8;
+    }
+  }
+
+  .name{
+    text-decoration: none;
+    padding: 0.5rem 0;
+    color: #6d4949;
+  }
+
+  h5{
+    font-size: 1.15rem;
+    font-weight: 300;
+    color: #b19c9c;
+  }
+}
+
+.quick-link{
+  margin: 0.1rem 0.4rem;
+  transform: rotate(-90deg);
+  color: #4d4b4b;
+  z-index: 4;
+  transition: all 0.2s ease-in;
+
+  &:hover{
+    cursor: pointer;
+    color: #747171;
+  }
+}

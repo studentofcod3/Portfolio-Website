@@ -5,12 +5,14 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import QuickLinks from "./components/QuickLinks";
 
 import ProjectState from "./context/project/ProjectState";
+import "./App.scss";
 
 function App() {
   const App = styled.div`
-    color: #eee;
+    color: #222;
     min-height: 100vh;
     box-sizing: border-box;
     font-size: 1.4rem;
@@ -27,20 +29,15 @@ function App() {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100%;
     width: 75%;
     margin: auto;
+    padding: 5rem 0;
     line-height: 1.6;
 
     @media (max-width: 768px) {
       width: 100%;
     }
-  `;
-
-  const Name = styled(Link)`
-    text-decoration: none;
-    color: #85c1e9;
-    font-size: 2.4rem;
   `;
 
   const Links = styled.div`
@@ -54,7 +51,7 @@ function App() {
     margin: 1rem;
     padding: 0.5rem 1rem;
     font-family: "Chakra Petch", sans-serif;
-    color: #ddd;
+    color: #743131;
     font-size: 1rem;
     transition: all ease-in 0.3s;
     text-decoration: none;
@@ -68,23 +65,30 @@ function App() {
   return (
     <ProjectState>
       <Router>
-        <App>
+        <App id='App'>
+          <div className='clip-item'>
+            <QuickLinks />
+          </div>
+          <div className='background'>
+            <div className='clip-item-2'></div>
+            <div className='overlay'></div>
+          </div>
           <Container>
-            <Name to='/'>Ayyoub Maknassa</Name>
+            <Link to='/home' className='name'>
+              Ayyoub Maknassa
+            </Link>
+            <h5>Web developer</h5>
             <Links>
-              <StyledLink to='/projects'>Projects </StyledLink>
+              <StyledLink to='/'>Projects </StyledLink>
               <StyledLink to='/skills'>Skills </StyledLink>
               <StyledLink to='/contact'>Contact </StyledLink>
             </Links>
+            {Projects}
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/home' component={Home} />
               <Route exact path='/skills' component={Skills} />
-              <Route exact path='/projects' component={Projects} />
+              <Route exact path='/' component={Projects} />
               <Route exact path='/contact' component={Contact} />
-
-              {/* Skills component */}
-              {/* Projects component*/}
-              {/* Contact component*/}
             </Switch>
           </Container>
         </App>

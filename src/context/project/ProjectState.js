@@ -3,6 +3,7 @@ import ProjectContext from "./projectContext";
 import projectReducer from "./projectReducer";
 import aviskr from "../../images/aviskr-thumbnail.jpg";
 import contactkeeper from "../../images/contactkeeper-thumbnail.JPG";
+import uidesign from "../../images/uidesign-thumbnail.JPG";
 
 const ProjectState = props => {
   const initialState = {
@@ -25,6 +26,14 @@ const ProjectState = props => {
         projectLink: "https://blooming-waters-98960.herokuapp.com/",
         codeLink: "https://github.com/studentofcod3/Applicants-Manager",
         background: contactkeeper
+      },
+      {
+        id: 3,
+        name: "UI Design",
+        description: "A simple UI design page showcasing some CSS manipulation",
+        projectLink: "https://morning-falls-43801.herokuapp.com/",
+        codeLink: "https://github.com/studentofcod3/UI-design",
+        background: uidesign
       }
     ]
   };

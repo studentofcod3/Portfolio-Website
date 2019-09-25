@@ -7,7 +7,7 @@ const ProjectItem = ({ project }) => {
   const Div = styled.div`
     background: #000;
     opacity: 0.9;
-    border-radius: 8px;
+    box-shadow: -3px 3px 4px 0px #444;
     width: 300px;
     height: 250px;
     margin: 1rem 0.5rem;
@@ -30,6 +30,7 @@ const ProjectItem = ({ project }) => {
       margin: 0;
       padding: 0;
       border-bottom: solid 1px #69ad8e;
+      color: #ddd;
     }
 
     .container {
@@ -41,6 +42,10 @@ const ProjectItem = ({ project }) => {
       width: 100%;
       border-top: solid 1px #000;
       border-bottom: solid 2px #000;
+
+      .description{
+        color: #ddd;
+      }
 
       .description,
       .links {

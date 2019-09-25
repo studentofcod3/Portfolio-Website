@@ -13,8 +13,7 @@ const ProjectState = props => {
         name: "Aviskr",
         description:
           "Website for an organisation dedicated to policy research - Built using React",
-        projectLink:
-          "https://5d77d7067ecb76b23e37f9f8--aviskr23242.netlify.com/",
+        projectLink: "https://cryptic-fjord-57926.herokuapp.com/",
         codeLink: "https://github.com/studentofcod3/Aviskr-2.0",
         background: aviskr
       },

@@ -1,7 +1,6 @@
 #App{
   
   .background{
-    background: #94e6e9;
     height: 100%;
     width: 100vw;
     z-index: -1;
@@ -21,7 +20,7 @@
     position: fixed;
     top: -20rem;
     left: -20rem;
-    background: #f4f817;
+    background: #E3E8E6;
     height: 15rem;
     width: 15rem;
     transform: rotate(45deg); 
@@ -36,17 +35,6 @@
     animation-fill-mode: forwards;
   }
 
-  @keyframes slide {
-    0% {
-      transform: translate(0, 0) rotate(45deg); 
-      opacity: 0;
-    }
-
-    100%{
-      transform: translate(10rem, 10rem) rotate(45deg);opacity: 0.8;
-    }
-  }
-
   .name{
     text-decoration: none;
     padding: 0.5rem 0;
@@ -56,7 +44,7 @@
   h5{
     font-size: 1.15rem;
     font-weight: 300;
-    color: #b19c9c;
+    color: #E3E8E6;
   }
 }
 
@@ -66,9 +54,161 @@
   color: #4d4b4b;
   z-index: 4;
   transition: all 0.2s ease-in;
+  animation: fadein 4s 2s forwards;
+  opacity: 0;
 
   &:hover{
     cursor: pointer;
     color: #747171;
   }
 }
+
+#projectItem{
+    background: #000;
+    box-shadow: -3px 3px 4px 0px #444;
+    width: 300px;
+    height: 250px;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    animation: fadein 2s forwards;
+
+    &:hover {
+      .container {
+        opacity: 1;
+
+        .description,
+        .links {
+        }
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      border-bottom: solid 1px #288d88;
+      color: #ddd;
+    }
+
+    .container {
+      position: absolute;
+      bottom: 30%;
+      left: 0;
+      opacity: 0;
+      transition: all ease-in 0.4s;
+      width: 100%;
+      border-top: solid 1px #000;
+      border-bottom: solid 2px #000;
+
+      .description,
+      .links {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.9rem;
+        background: #E3E8E6;
+        color: #000;
+        
+        a {
+          border: solid 1px #7CA5D9;
+          text-decoration: none;
+          border-left: none;
+          width: 100%;
+          padding: 0.5rem;
+          color: #000;
+          transition: all ease-in 0.4s;
+          font-weight: 400;
+
+          &:clicked {
+            color: #7CA5D9;
+          }
+
+          &:hover {
+            background: #85C1E9;
+            color: #000;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1024px){
+      .container {
+        opacity: 0.9;
+        bottom: 0;
+      }
+    }
+}
+
+// Skills
+#skills{
+  animation: fadein 2s forwards;
+  @media (min-width: 400px){
+    height: 70vh;
+  }
+}
+
+
+// Contact
+#contact{
+  animation: fadein 2s forwards;
+
+  div {
+    a ,
+    .email {
+      display: flex;
+      flex-direction: column;
+      align-items: space-around;
+      margin-bottom: 3rem;
+      text-decoration: none;
+      color: #4d4b4b;
+      transition: all 1s;
+    }
+    
+    a{
+      &:hover {
+        color: #b3b854;
+      }
+    }
+
+    .email{
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 350px){
+    div {
+      a ,
+      .email {
+        margin-bottom: 1.5rem;
+      }
+
+      .email{
+        font-size: 1.15rem;
+      }
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0, 0) rotate(45deg); 
+    opacity: 0;
+  }
+
+  100%{
+    transform: translate(10rem, 10rem) rotate(45deg);opacity: 0.8;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+

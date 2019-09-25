@@ -1,12 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 
 const Skills = () => {
-  const SkillsComponent = styled.div`
-    height: 70vh;
-  `;
   return (
-    <SkillsComponent>
+    <div id='skills'>
       <p>HTML and CSS</p>
       <p>Javascript</p>
       <p>React</p>
@@ -14,7 +10,7 @@ const Skills = () => {
       <p>Nodejs</p>
       <p>MongoDB</p>
       <p>Express</p>
-    </SkillsComponent>
+    </div>
   );
 };
 

@@ -43,6 +43,11 @@ function App() {
   const Links = styled.div`
     margin-top: 2rem;
     margin-bottom: 6rem;
+
+    @media (max-width: 350px) {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
   `;
 
   const StyledLink = styled(Link)`

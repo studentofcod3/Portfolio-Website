@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.aeb64c80.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.d0e723f7.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.d0e723f7.chunk.js.map",
-    "runtime~main.js": "/Portfolio-Website/static/js/runtime~main.e524495c.js",
-    "runtime~main.js.map": "/Portfolio-Website/static/js/runtime~main.e524495c.js.map",
-    "static/js/2.26bef904.chunk.js": "/Portfolio-Website/static/js/2.26bef904.chunk.js",
-    "static/js/2.26bef904.chunk.js.map": "/Portfolio-Website/static/js/2.26bef904.chunk.js.map",
-    "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.f74b16f5591bda46b1f1cfe8bb5e46cc.js": "/Portfolio-Website/precache-manifest.f74b16f5591bda46b1f1cfe8bb5e46cc.js",
-    "service-worker.js": "/Portfolio-Website/service-worker.js",
-    "static/css/main.aeb64c80.chunk.css.map": "/Portfolio-Website/static/css/main.aeb64c80.chunk.css.map",
-    "static/media/aviskr-thumbnail.jpg": "/Portfolio-Website/static/media/aviskr-thumbnail.91076b54.jpg",
-    "static/media/contactkeeper-thumbnail.JPG": "/Portfolio-Website/static/media/contactkeeper-thumbnail.a3d6da85.JPG",
-    "static/media/uidesign-thumbnail.JPG": "/Portfolio-Website/static/media/uidesign-thumbnail.6ec779f7.JPG"
+    "main.css": "ayyoubmaknassa.com/static/css/main.aeb64c80.chunk.css",
+    "main.js": "ayyoubmaknassa.com/static/js/main.d0e723f7.chunk.js",
+    "main.js.map": "ayyoubmaknassa.com/static/js/main.d0e723f7.chunk.js.map",
+    "runtime~main.js": "ayyoubmaknassa.com/static/js/runtime~main.da0278b1.js",
+    "runtime~main.js.map": "ayyoubmaknassa.com/static/js/runtime~main.da0278b1.js.map",
+    "static/js/2.ddd8f7ea.chunk.js": "ayyoubmaknassa.com/static/js/2.ddd8f7ea.chunk.js",
+    "static/js/2.ddd8f7ea.chunk.js.map": "ayyoubmaknassa.com/static/js/2.ddd8f7ea.chunk.js.map",
+    "index.html": "ayyoubmaknassa.com/index.html",
+    "precache-manifest.b0b1f4ec8d2a991a3f449bdd22e1d2d6.js": "ayyoubmaknassa.com/precache-manifest.b0b1f4ec8d2a991a3f449bdd22e1d2d6.js",
+    "service-worker.js": "ayyoubmaknassa.com/service-worker.js",
+    "static/css/main.aeb64c80.chunk.css.map": "ayyoubmaknassa.com/static/css/main.aeb64c80.chunk.css.map",
+    "static/media/aviskr-thumbnail.jpg": "ayyoubmaknassa.com/static/media/aviskr-thumbnail.91076b54.jpg",
+    "static/media/contactkeeper-thumbnail.JPG": "ayyoubmaknassa.com/static/media/contactkeeper-thumbnail.a3d6da85.JPG",
+    "static/media/uidesign-thumbnail.JPG": "ayyoubmaknassa.com/static/media/uidesign-thumbnail.6ec779f7.JPG"
   }
 }

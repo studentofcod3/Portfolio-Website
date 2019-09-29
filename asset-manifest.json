@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "ayyoubmaknassa.com/static/css/main.aeb64c80.chunk.css",
-    "main.js": "ayyoubmaknassa.com/static/js/main.d0e723f7.chunk.js",
-    "main.js.map": "ayyoubmaknassa.com/static/js/main.d0e723f7.chunk.js.map",
-    "runtime~main.js": "ayyoubmaknassa.com/static/js/runtime~main.da0278b1.js",
-    "runtime~main.js.map": "ayyoubmaknassa.com/static/js/runtime~main.da0278b1.js.map",
-    "static/js/2.ddd8f7ea.chunk.js": "ayyoubmaknassa.com/static/js/2.ddd8f7ea.chunk.js",
-    "static/js/2.ddd8f7ea.chunk.js.map": "ayyoubmaknassa.com/static/js/2.ddd8f7ea.chunk.js.map",
-    "index.html": "ayyoubmaknassa.com/index.html",
-    "precache-manifest.b0b1f4ec8d2a991a3f449bdd22e1d2d6.js": "ayyoubmaknassa.com/precache-manifest.b0b1f4ec8d2a991a3f449bdd22e1d2d6.js",
-    "service-worker.js": "ayyoubmaknassa.com/service-worker.js",
-    "static/css/main.aeb64c80.chunk.css.map": "ayyoubmaknassa.com/static/css/main.aeb64c80.chunk.css.map",
-    "static/media/aviskr-thumbnail.jpg": "ayyoubmaknassa.com/static/media/aviskr-thumbnail.91076b54.jpg",
-    "static/media/contactkeeper-thumbnail.JPG": "ayyoubmaknassa.com/static/media/contactkeeper-thumbnail.a3d6da85.JPG",
-    "static/media/uidesign-thumbnail.JPG": "ayyoubmaknassa.com/static/media/uidesign-thumbnail.6ec779f7.JPG"
+    "main.css": "/static/css/main.aeb64c80.chunk.css",
+    "main.js": "/static/js/main.d0e723f7.chunk.js",
+    "main.js.map": "/static/js/main.d0e723f7.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.c328e90f.chunk.js": "/static/js/2.c328e90f.chunk.js",
+    "static/js/2.c328e90f.chunk.js.map": "/static/js/2.c328e90f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1f048d961e1e01b97b21719afdf87cf1.js": "/precache-manifest.1f048d961e1e01b97b21719afdf87cf1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.aeb64c80.chunk.css.map": "/static/css/main.aeb64c80.chunk.css.map",
+    "static/media/aviskr-thumbnail.jpg": "/static/media/aviskr-thumbnail.91076b54.jpg",
+    "static/media/contactkeeper-thumbnail.JPG": "/static/media/contactkeeper-thumbnail.a3d6da85.JPG",
+    "static/media/uidesign-thumbnail.JPG": "/static/media/uidesign-thumbnail.6ec779f7.JPG"
   }
 }

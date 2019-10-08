@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect
+} from "react-router-dom";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -11,6 +17,10 @@ import ProjectState from "./context/project/ProjectState";
 import "./App.scss";
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const App = styled.div`
     color: #222;
     min-height: 100vh;
@@ -94,6 +104,7 @@ function App() {
               <Route exact path='/skills' component={Skills} />
               <Route exact path='/' component={Projects} />
               <Route exact path='/contact' component={Contact} />
+              <Redirect to='/' />
             </Switch>
           </Container>
         </App>
